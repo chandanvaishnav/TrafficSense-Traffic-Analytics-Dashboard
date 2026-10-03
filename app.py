@@ -552,19 +552,6 @@ st.caption("Monthly means use month number, so they combine the selected years."
 
 
 st.divider()
-st.header("🧾 Filtered Records")
-st.caption(f"Showing {len(filtered_df):,} matching records.")
-st.dataframe(filtered_df, width="stretch", hide_index=True)
-st.download_button(
-    "Download filtered data as CSV",
-    data=filtered_df.to_csv(index=False).encode("utf-8"),
-    file_name="trafficsense_filtered_data.csv",
-    mime="text/csv",
-    width="stretch",
-)
-
-
-st.divider()
 
 
 # ==================================================
