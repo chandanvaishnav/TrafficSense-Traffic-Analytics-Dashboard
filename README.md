@@ -106,5 +106,5 @@ The repository includes static analysis charts: [traffic by hour](traffic_by_hou
 
 ## Links
 
-- GitHub repository: pending publication.
-- Streamlit Community Cloud dashboard: pending deployment.
+- GitHub repository: https://github.com/chandanvaishnav/TrafficSense-Traffic-Analytics-Dashboard
+- Streamlit Community Cloud dashboard: https://trafficsense-traffic-analytics-dashboard.streamlit.app/
